@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.066266">
+<testcase classname="To validate the login functionality of FootLocker" name="To validate login functionality with invalid credentials" time="8.066266">
+<system-out><![CDATA[When The user has to click sign in button...................................passed
+And The user has to fill username and password..............................passed
+And The user has to click signin confirm button.............................passed
+Then The user should navigate to invalid login page.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
