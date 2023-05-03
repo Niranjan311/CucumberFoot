@@ -33,7 +33,7 @@ public class FootLocker extends BaseClass {
 		System.out.println(text);
 		
 		
-		
+		driver.quit();
 		
 		
 		
