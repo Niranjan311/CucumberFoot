@@ -26,6 +26,12 @@ public class FootLocker extends BaseClass {
 		fillTextBox(l.getTxtPassword(), "Niranjank");
 		btnClick(l.getBtnLogin());
 		
+		WebElement txtPassword = l.getTxtPassword();
+		
+		String text = txtPassword.getText();
+		
+		System.out.println(text);
+		
 		
 		
 		

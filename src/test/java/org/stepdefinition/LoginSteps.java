@@ -1,8 +1,13 @@
 package org.stepdefinition;
 
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
+
 import org.base.BaseClass;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.pages.LoginPage;
 import io.cucumber.java.en.*;
@@ -10,6 +15,17 @@ import io.cucumber.java.en.*;
 public class LoginSteps extends BaseClass { // footlocker
 	
 	LoginPage l;
+	
+	
+	
+	@Given("The user should be in FootLocker page")
+	public void the_user_should_be_in_FootLocker_page() {
+		
+		
+		
+		
+		    
+	}
 	
 	@When("The user has to click sign in button")
 	public void the_user_has_to_click_sign_in_button() {		
@@ -21,8 +37,8 @@ public class LoginSteps extends BaseClass { // footlocker
 	@When("The user has to fill username and password")
 	public void the_user_has_to_fill_username_and_password() {
 		
-		fillTextBox(l.getTxtUsername(), "niranjank@gmail.com");		
-		fillTextBox(l.getTxtPassword(), "niranjank");		
+		fillTextBox(l.getTxtUsername(), "niranjank311294@gmail.com");		
+		fillTextBox(l.getTxtPassword(), "Niranjan@31");		
 		
 	}
 	@When("The user has to fill {string} and {string}")

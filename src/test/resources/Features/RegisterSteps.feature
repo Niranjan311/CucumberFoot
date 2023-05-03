@@ -1,7 +1,7 @@
 Feature: To validate the register functionality
 
   Background: 
-    #Given The user should be in FootLocker page
+ #   Given The user should be in FootLocker page
   @sanity
   Scenario: To validate register functionality using invalid credentials
     When The user has to click sign in button and Create button

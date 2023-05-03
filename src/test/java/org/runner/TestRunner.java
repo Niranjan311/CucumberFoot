@@ -9,8 +9,8 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources", glue = "org.stepdefinition", dryRun = false, tags = {
-		"@smoke" }, plugin = { "pretty", "html:src\\test\\resources\\Reports",
+@CucumberOptions(features = "src/test/resources", glue = "org.stepdefinition", tags = {
+		"@Amazon" }, dryRun = false, plugin = { "pretty", "html:src\\test\\resources\\Reports",
 				"json:src\\test\\resources\\Reports\\jsonReport.json",
 				"junit:src\\test\\resources\\Reports\\junitReport.xml",
 				"rerun:src\\test\\resources\\FailedScenario\\failed.txt" }, monochrome = true)
