@@ -20,11 +20,15 @@ public class FootLocker extends BaseClass {
 		launchUrl("https://www.footlocker.com");
 		
 		LoginPage l= new LoginPage();		
-	
 		System.out.println("git learning");
 		WebElement txtPassword = l.getTxtPassword();		
+		System.out.println(text);
+		System.out.println(text);
 		String text = txtPassword.getText();
 		
+		System.out.println(text);
+		System.out.println(text);
+		System.out.println(text);
 		System.out.println(text);
 		
 		
