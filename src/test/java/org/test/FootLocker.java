@@ -19,21 +19,16 @@ public class FootLocker extends BaseClass {
 		implicitWait(20);
 		launchUrl("https://www.footlocker.com");
 		
-		LoginPage l= new LoginPage();
-		
-		btnClick(l.getBtnSign());
-		fillTextBox(l.getTxtUsername(), "Kumar@gmail.com");
-		fillTextBox(l.getTxtPassword(), "Niranjank");
-		btnClick(l.getBtnLogin());
-		
-		WebElement txtPassword = l.getTxtPassword();
-		
+		LoginPage l= new LoginPage();		
+	
+		System.out.println("git learning");
+		WebElement txtPassword = l.getTxtPassword();		
 		String text = txtPassword.getText();
 		
 		System.out.println(text);
 		
 		
-		driver.quit();
+		driver.close();
 		
 		
 		
